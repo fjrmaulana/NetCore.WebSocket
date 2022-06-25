@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Websocket";
+}
+<h1>Web Socket Youtube Sample</h1>
+<p id="statuslabel"> Alredy to Connect!!</p>
+<div>
+    <label for="connectionUrl" >WebSocket Connect Url:</label>
+    <input id="connectionUrl" />
+    <button id="connectionButton" type="submit">Connect </button>
+</div>
+<p></p>
+<div>
+    <label for="sendMessage">Message To Send:</label>
+    <input id="sendMessage" />
+    <button id="sendButton" type="submit">Send </button>
+    <button id="closeButton" disabled>Close Socket </button>
+</div>
+<h2>Communication Log</h2>
+<table style="width:400px">
+    <thead>
+        <tr>
+            <td style="width:100px">From</td>
+            <td style="width:100px">To</td>
+            <td>Data</td>
+        </tr>
+    </thead>
+    <tbody id="commsLog"></tbody>
+</table>
