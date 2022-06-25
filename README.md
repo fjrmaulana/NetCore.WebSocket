@@ -10,4 +10,4 @@ This application is made with version .Net Core 2.0
     <li>Open or Close Connection</li>
 </ul>
 <h3>Screen Shoot:</h3>
-<img src="https://github.com/fjrmaulana/NetCore.WebSocket/tree/master/NetCore.WebSocket/wwwroot/images/screenshoot.png"> 
+<img src="https://i.postimg.cc/Wp81Fxqk/screenshoot.png"> 
